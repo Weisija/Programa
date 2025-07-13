@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Inicia Sesión</title>
+  <style>
+    body {
+      background-color: #0e111a;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      flex-direction: column;
+    }
+
+    .login-container {
+      text-align: center;
+    }
+
+    .login-container img {
+      width: 200px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: white;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 300px;
+      padding: 12px;
+      margin: 10px auto;
+      border: 1px solid #000;
+      background-color: white;
+      color: #000;
+      font-weight: bold;
+      text-align: left;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #f0f0f0;
+    }
+
+    .btn i {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+
+    <img src="Escanor.png" alt="Escanor">
+
+    <h2>INICIA SESIÓN</h2>
+
+    <button class="btn">
+      📧 RECIBIR CLAVE DE ACCESO RÁPIDO POR EMAIL
+    </button>
+
+    <button class="btn">
+      👤 INGRESAR CON EMAIL Y CONTRASEÑA
+    </button>
+
+    <button class="btn">
+      🟢 INGRESAR CON GOOGLE
+    </button>
+  </div>
+</body>
+</html>
